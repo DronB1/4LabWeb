@@ -1,0 +1,16 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+{% load staticfiles %}
+
+<h2>{{ title }}.</h2>
+
+<adress>
+  <a href ="https://www.google.ru" target="_blank"> <img src="{% static 'app/content/google.png' %}" alt="Logo 1"/></a>
+  <a href ="https://www.yandex.ru" target="_blank"> <img src="{% static 'app/content/yandex.png' %}" alt="Logo 1"/></a>
+  <a href ="https://www.youtube.ru" target="_blank"> <img src="{% static 'app/content/youtube.png' %}" alt="Logo 1"/></a>
+
+</adress>
+
+
+{% endblock %}
